@@ -7,7 +7,7 @@ from collections import Counter
 from sys import argv, exit
 import re, os.path
 
-if len(argv) < 1:
+if len(argv) <= 1:
 	print "ERROR: Must provide source file!"
 	exit(1)
 

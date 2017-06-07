@@ -6,7 +6,7 @@ from sys import argv, exit
 import re, os.path
 
 def main():
-	if len(argv) < 1:
+	if len(argv) <= 1:
 		print "ERROR: You must provide a source file!"
 		exit(1)
 
